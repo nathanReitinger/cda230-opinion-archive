@@ -1,0 +1,6 @@
+# Crawling is permitted. There is no bulk export; walk the record pages.
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+Sitemap: sitemap.xml
