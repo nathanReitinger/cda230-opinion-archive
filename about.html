@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>About &mdash; CDA 230 Opinion Archive</title>
+<title>About &mdash; Opinion Document Store</title>
 <meta name="robots" content="noindex, nofollow">
 <style>
 :root{--ink:#16202b;--ink2:#5a6673;--ink3:#8b95a1;--rule:#dde3ea;--paper:#f7f8fa;
@@ -56,43 +56,41 @@ footer div{max-width:960px;margin:0 auto;padding:18px 24px 30px}
 </style></head><body>
 
 <header class="masthead"><div class="mast-in">
-  <h1>CDA&nbsp;230 Opinion Archive</h1>
-  <div class="tag">Federal and state decisions construing 47 U.S.C. &sect;&nbsp;230,
-    2023&ndash;2026 &middot; 21 opinions</div>
+  <h1>Opinion Document Store</h1>
+  <div class="tag">21 documents &middot; retrieval by record number</div>
 </div></header>
-<nav class="bar"><div><a href="index.html">Browse</a><a href="courts.html">By court</a><a href="years.html">By year</a><a href="about.html" style=color:var(--accent)>About</a></div></nav>
+<nav class="bar"><div><a href="index.html">Documents</a><a href="about.html" style=color:var(--accent)>About</a></div></nav>
 <main>
-<h2>About this archive</h2>
+<h2>About this store</h2>
 <p class="count">&nbsp;</p>
-<p>This archive collects {21} federal and state court decisions construing section 230
-of the Communications Decency Act, 47 U.S.C. &sect;&nbsp;230, handed down between 2023
-and 2026. Each record page carries the citation, court, docket number, disposition and
-the parties of record, and serves the opinion as a PDF.</p>
-<p>The documents are reproduced as distributed by a commercial legal research service.
-Each carries an educational-use stamp and the service&rsquo;s editorial apparatus &mdash;
-headnotes, synopses, citator flags and star pagination. <b>None of that apparatus is the
-court&rsquo;s work.</b> The text of the opinion is in the public domain; the editorial
-matter around it is not, and it should not be quoted as though the court wrote it.</p>
-<p>For anyone extracting text from these files: the headnotes and synopsis sit on page
-one in a second column, and will contaminate a naive parse. Separating the court&rsquo;s
-words from the reporter&rsquo;s is part of the work.</p>
-<p><b>Party names are transcribed as the opinions give them.</b> Corporate defendants
-are therefore spelled inconsistently across records, and a company may appear under a
-trade name in one opinion and a corporate name in another. No normalisation has been
-applied.</p>
-<p>There is no bulk download, no API and no machine-readable index. Records are
-reachable by browsing or by crawling; see
-<a href="robots.txt">robots.txt</a>.</p>
-<h2 style="margin-top:30px">Teaching use</h2>
-<p>This site was built as a fixture for a research-methods workshop, to give
-participants something realistic to collect data from. It is not an official
-publication of any court, agency or reporter, and the documents are posted for
-educational use only.</p></main>
+<p>This is a document store holding 21 court opinions, addressed by record
+number. It publishes no descriptive cataloguing: no case name, court, date, docket or
+party appears anywhere on this site, and there is no index of those things to search.</p>
+<p>Record pages report properties of the stored <em>object</em> &mdash; its length,
+digests, media type, header bytes, the producer string the generating software wrote
+into it, and the store&rsquo;s own accession and integrity-check timestamps. None of
+that describes the contents. <b>Any description of a document must be taken from the
+document.</b></p>
+<p>The objects are court opinions as distributed by a commercial legal research
+service, and carry that service&rsquo;s editorial apparatus &mdash; headnotes,
+synopses, citator flags and star pagination &mdash; none of which is the court&rsquo;s
+work. Page one is a two-column spread, so text extracted naively from it interleaves
+the columns and corrupts every field. Separating the court&rsquo;s words from the
+reporter&rsquo;s is part of the work.</p>
+<h2 style="margin-top:30px">Integrity</h2>
+<p>Objects are verified against their recorded digest on a rolling schedule and the
+result is reported on each record page as a parse status. A record whose status is not
+<span class="mono">ok</span> is served as held: the store does not repair, substitute
+or withdraw objects, and it holds no second copy in a different format. Where an object
+cannot be read, nothing else in this store describes what it contained.</p>
+<h2 style="margin-top:30px">Access</h2>
+<p>No bulk download, no API, no machine-readable index. Records are reachable by
+number or by crawling; see <a href="robots.txt">robots.txt</a>.</p></main>
 <footer><div>
-  Documents reproduced for classroom use and marked for educational use only. They are
-  court opinions as distributed by a commercial legal research service and include that
-  service&rsquo;s headnotes, synopses and citator flags, which are not part of the court&rsquo;s
-  opinion. Prepared as teaching material; not an official publication of any court or
-  reporter. No bulk download is offered &mdash; each opinion has its own record page.
+  Document store. Records are addressed by number; no descriptive cataloguing is
+  published. Each record page reports the technical properties of the stored object
+  only &mdash; length, digest, media type, accession and verification timestamps. Any
+  description of a document&rsquo;s contents must be taken from the document. No bulk
+  download is offered.
 </div></footer>
 </body></html>
